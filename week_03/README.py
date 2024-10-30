@@ -1,0 +1,7 @@
+print("hello Python")
+print("my name is Srisutep Noothong")
+print("my nick name is aomsin")
+print("age 19")
+print("no 19")
+print("67319010019")
+print("my Read Manga")

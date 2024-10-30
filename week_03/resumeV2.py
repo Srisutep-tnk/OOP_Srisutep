@@ -1,0 +1,13 @@
+name = input("ชื่อ: ")
+age = int(input("อายุ: "))
+no = int(input("รหัสประจำตัว: "))
+level = int(input("ระดับชั้น: "))
+nickname = input("ชื่อเล่น: ")
+height = float(input("ส่วนสูง: "))
+weight = float(input("น้ำหนัก: "))
+
+print("ชื่อ: " + name, "อายุ: " + str(age) + " ปี")
+print("รหัสประจำตัวนักเรียน: " + str(no), "ระดับชั้น: " + str(level))
+print("ชื่อเล่น: " + nickname)
+print("ส่วนสูง: " + str(height) + " เซนติเมตร", "น้ำหนัก: " + str(weight) + " กิโลกรัม")
+print("ส่วนสูง + น้ำหนัก =",height+weight)

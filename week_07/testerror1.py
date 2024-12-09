@@ -4,11 +4,11 @@ try:
     if b == 0:
         raise ZeroDivisionError()
     else:
-        c = a/b
+        c = a*b
         print(c)
 except ValueError:
-    print("ใส่เแพาะตัวเลข")
+    print("ใส่เฉพาะตัวเลข")
 except ZeroDivisionError:
     print("ห้ามใส่ 0")
 finally:
-    print("จบโปรแกรม")
+    print("จบโปรแกรม")    

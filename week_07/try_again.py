@@ -1,7 +1,7 @@
 sum = 0
 while True:
     try:    
-        price = str(input("ราคาสินค้า (พิมพ์ 'exit' เพื่อออก): "))
+        price = str(input("ใส่ราคาสินค้า (พิมพ์ 'exit' เพื่อออก): "))
         if price =="exit":
             print(f"ยอดรวมปัจจุบัน:{sum}")
             break
